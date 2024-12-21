@@ -1,0 +1,243 @@
+.sans {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #080c27;
+    color: white;
+    margin: 0;
+    height: 800px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Хеадер */
+.header{
+    height: 100px;
+    background-color: #070a1d;;
+}
+
+.container{
+    max-width: 1680px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 0 0;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.nav a{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ul-head{
+    display: flex;
+    gap: 100px;
+}
+
+li a{
+    transition: 0.25s ease-in-out;
+}
+
+li a:hover{
+    color: red;
+}
+
+.color{
+    color: red;
+}
+
+header{
+    height: 166px;
+}
+
+.name{
+    margin-right: 750px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #070a1d;
+    color: white;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #070a1d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 14px;
+}
+  
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {
+    background-color: #070a1d;
+    color: red;
+}
+
+/* Мэйн */
+
+main{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts .text{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Футер */
+
+.footer{
+    background-color: #070a1d;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-foot{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    font-size: 35px;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Увеличение на 10% */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.social i{
+    color: red;
+}
+
+.social i:hover{
+    animation: grow 1s ease-in-out;
+}
+
+.contact1{
+    margin-left: 250px;
+}
+
+.email{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mail{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.phone{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.number{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.license{
+    text-align: center;
+}
+
+.rights{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
